@@ -1,0 +1,18 @@
+bmi088:
+  bsp_config:
+    BSP_GPIO_ACCL_CS: BSP_GPIO_ACCL_CS
+    BSP_GPIO_ACCL_INT: BSP_GPIO_ACCL_INT
+    BSP_GPIO_GYRO_CS: BSP_GPIO_GYRO_CS
+    BSP_GPIO_GYRO_INT: BSP_GPIO_GYRO_INT
+    BSP_SPI_BMI088: BSP_SPI_1
+  enabled: true
+dr16:
+  bsp_config:
+    BSP_UART_DR16: BSP_UART_3
+  enabled: true
+motor:
+  bsp_config: {}
+  enabled: true
+motor_rm:
+  bsp_config: {}
+  enabled: true
